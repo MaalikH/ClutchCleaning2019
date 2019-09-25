@@ -1,0 +1,60 @@
+.pricing-section {
+  background: linear-gradient(180deg,#121417 0,#06090d 100%);
+  min-height: 50vh;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: white;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.table {
+  color: white;
+}
+
+.service {
+  text-align: left;
+}
+
+.service-title {
+  font-size: 1em;
+}
+
+.service-price {
+  font-size: 2.5em;
+  color: #1DAEEC;
+}
+
+.fas {
+  color: #1DAEEC;
+}
+
+.table th, .table td {
+  border-top: 1px solid grey;
+}
+
+.table thead th {
+  border-top: none;
+  border-bottom: 1px solid grey;
+}
+
+
+
+.table-col {
+  display: flex;
+  flex-direction: column;
+  border-top: none !important;
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

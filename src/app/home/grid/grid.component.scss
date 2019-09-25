@@ -1,0 +1,36 @@
+.services-section {
+  background: linear-gradient(180deg,#121417 0,#06090d 100%);
+  color: white
+}
+
+
+.grid-img {
+  min-width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.clutch-grid {
+  background-color: #1DAEEC;
+}
+
+.clutch-grid-2 {
+  background-color: white;
+  color: grey;
+}
+
+
+.image-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.test-image {
+  width: 400px;
+  height: 400px;
+  background-image: url('http://c1.staticflickr.com/6/5733/30853920360_1e9047fa54_b.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

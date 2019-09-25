@@ -1,0 +1,41 @@
+.gallery-section {
+  background: linear-gradient(180deg,#121417 0,#06090d 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 0;
+  color: white
+}
+
+.grid-img {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 25px;
+  border: 1px solid #1DAEEC;
+}
+
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .grid-img {
+    height: 350px;
+    width: 350px;
+    margin-bottom: 25px;
+    border: 1px solid #1DAEEC;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .grid-img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 25px;
+    border: 1px solid #1DAEEC;
+  }
+}

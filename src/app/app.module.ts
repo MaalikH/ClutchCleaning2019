@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PricingComponent } from './home/pricing/pricing.component';
+import {NgxPageScrollModule} from 'ngx-page-scroll';
+import {NgxPageScrollCoreModule} from 'ngx-page-scroll-core';
 
 @NgModule({
   declarations: [
@@ -10,7 +13,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
